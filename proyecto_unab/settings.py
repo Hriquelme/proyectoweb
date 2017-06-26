@@ -39,14 +39,10 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'web',
     'bootstrap3',
-    'registration',
+    'django_markdown',
+
   
 ]
-ACCOUNT_ACTIVATION_DAYS = 7
-EMAIL_HOST = 'smtp.gmail.com'
-EMAIL_HOST_USER = 'c.fuentescorts@gmail.com'
-EMAIL_HOST_PASSWORD = 'dragonballz1994'
-EMAIL_USE_TLS = True
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
@@ -128,3 +124,4 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 STATIC_ROOT = ''
+

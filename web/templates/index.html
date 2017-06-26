@@ -24,6 +24,8 @@
     <![endif]-->
   </head>
   <body>
+    {% block header %}
+      
     
     <!--Header informacion -->
     <div class="top-header">
@@ -48,7 +50,7 @@
             </ul>
             <ul class="list-inline pull-right">
               <li>
-                <li><a href="{% url 'auth_login' %}"><p id="h">Login</p></a>
+                <li><a href="nuevousuario.html"><p id="h">Login</p></a>
               </li>
             </ul>
           </div>
@@ -129,7 +131,10 @@
       </div>
     </nav>
     <!-- fin barra de navegación -->
-
+   {% endblock header %}
+         {% block navegacion %}
+           
+         
                 <!--navegacion lateral-->
                 <div class="container">
                 <div class="row">
@@ -171,7 +176,9 @@
                 </div>
               </div>
               <!--fin navegacion lateral-->
-
+        {% endblock navegacion %}
+   
+  {% block contenido %}
   <!--contenido principal-->
    <div class="container">
      <div class="row">
@@ -202,8 +209,8 @@
                {% for entrada in object_list %}
               <div class="col-xs-6 col-sm-4">
                 <img src="{% static "web/img/apaltagua.jpg" %}" alt="" class="img-responsive img-thumbnail" height="200" width="300">
-                <p><a href="/entrada{{ entrada.slug }}">{{ entrada.titulo }}</a></p>   
-                <p><span class="label label-info">Viñas</span></p>
+                <p><a href="/entrada/{{ entrada.slug }}">{{ entrada.titulo }}</a></p>   
+                <p><span class="label label-info">{{entrada.categoria}}</span></p>
               </div>
                {% endfor %}
             </div>
@@ -213,10 +220,11 @@
     </div>
   </section>
    <!-- fin contenido principal-->
+{% endblock contenido %}
 
 
-
-
+{% block footer %}
+  
   <!-- Footer -->
     <footer class="footer">
       <div class="container">
@@ -250,6 +258,7 @@
     </footer>
     <!-- fin Footer -->
 
+{% endblock footer %}
 
 
 
