@@ -1,12 +1,12 @@
-Proyecto Desarrollo Web
+<h1>Proyecto Desarrollo Web<h1>
 
-P·gina ìRuta del Vinoî
+<h2>P√°gina ‚ÄúRuta del Vino‚Äù<h2>
 
-IntroducciÛn
+<h3>Introducci√≥n<h3>
 
-Ruta del vino es una empresa chilena que proporciona servicios de tour por el Valle de Colchagua, en el que se ofrecen paseos guiados por sus viÒas, lugares de fabricaciÛn, sitios de interÈs y terrenos cercanos. Esta empresa no solo ofrece tours guiados, tambiÈn cuenta con servicio de comida y alojamiento para poder relajarse unos dÌas en el valle.
+Ruta del vino es una empresa chilena que proporciona servicios de tour por el Valle de Colchagua, en el que se ofrecen paseos guiados por sus vi√±as, lugares de fabricaci√≥n, sitios de inter√©s y terrenos cercanos. Esta empresa no solo ofrece tours guiados, tambi√©n cuenta con servicio de comida y alojamiento para poder relajarse unos d√≠as en el valle.
 
-Nuestro proyecto
+<h3>Nuestro proyecto<h3>
 
-Construiremos la p·gina ìrutadelvino.clî utilizando las herramientas de Django y Vagrant para poder realizar el backend de la p·gina, y para el frontend, utilizaremos HTML5, Bootstrap, CSS3 y Jquery para diseÒar la vista de la p·gina.
-La p·gina web cuenta con un sistema de registro de usuarios, en donde los clientes deber·n registrarse para poder utilizar los servicios, posee un cat·logo y un carro de compra para que el cliente pueda seleccionar varios productos y pagarlos todos de una vez. Se cuenta con varias secciones para categorizar los productos, adem·s de accesos a r·pidos a telÈfonos y correos de contacto. TambiÈn se cuenta con un usuario administrador, quien manejara los datos y funcionalidades de la p·gina.
+Construiremos la p√°gina ‚Äúrutadelvino.cl‚Äù utilizando las herramientas de Django y Vagrant para poder realizar el backend de la p√°gina, y para el frontend, utilizaremos HTML5, Bootstrap, CSS3 y Jquery para dise√±ar la vista de la p√°gina.
+La p√°gina web cuenta con un sistema de registro de usuarios, en donde los clientes deber√°n registrarse para poder utilizar los servicios, posee un cat√°logo y un carro de compra para que el cliente pueda seleccionar varios productos y pagarlos todos de una vez. Se cuenta con varias secciones para categorizar los productos, adem√°s de accesos a r√°pidos a tel√©fonos y correos de contacto. Tambi√©n se cuenta con un usuario administrador, quien manejara los datos y funcionalidades de la p√°gina.
