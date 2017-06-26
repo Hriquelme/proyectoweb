@@ -21,6 +21,10 @@ margin: -10px;
 
 }
 
+#color_detalle{
+	color: black;
+
+}
 
 section{
 	margin-top: 10px;
@@ -39,7 +43,7 @@ footer{
 }
 
 p{
-	color: white
+	color: white;
 }
 
 #nombres{

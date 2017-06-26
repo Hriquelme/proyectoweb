@@ -39,7 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'web',
     'bootstrap3',
-    'django_markdown',
+    
 
   
 ]
