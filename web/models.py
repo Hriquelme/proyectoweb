@@ -19,4 +19,18 @@ class Entrada(models.Model):
        	def save(self, *args, **kwargs):
        		if not self.id:
        			self.slug = slugify(self.titulo)
-       		super(Entrada, self).save(*args, **kwargs)	
+       		super(Entrada, self).save(*args, **kwargs)
+
+
+class Entrada2(models.Model):
+       titulo = models.CharField(max_length=200)
+       contenido = models.TextField()
+       precio = models.CharField(max_length=200)
+       categoria = models.CharField(max_length=200)
+       slug = models.SlugField(editable=False)
+       def save(self, *args, **kwargs):
+                     if not self.id:
+                            self.slug = slugify(self.titulo)
+                     super(Entrada2, self).save(*args, **kwargs)
+
+     
