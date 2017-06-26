@@ -15,9 +15,10 @@ Including another URLconf
 """
 from django.conf.urls import url
 from django.contrib import admin
-from web.views import IndexView
+from web.views import IndexView, EntradaDetailView
 from django.conf import settings
 from django.conf.urls.static import static
+
 
 
 
@@ -25,4 +26,5 @@ from django.conf.urls.static import static
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^$', IndexView.as_view()),
+    url(r'^entrada/(?P<slug>[-\w]+)/$', EntradaDetailView.as_view()),
     ] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
