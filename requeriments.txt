@@ -5,3 +5,4 @@ django-autofixture==0.12.1
 django-bootstrap-form==3.2.1
 pytz==2017.2
 wsgiref==0.1.2
+django-registration
