@@ -1,4 +1,4 @@
-<h1>Proyecto Desarrollo Web<h1>
+﻿<h1>Proyecto Desarrollo Web<h1>
  
 <h2>Página “Ruta del Vino”<h2>
 <h2>Hugo Riquelme, Carlos Fuentes, Javier Lau”<h2>
@@ -15,7 +15,7 @@ La página web cuenta con un sistema de registro de usuarios, en donde los clien
 
 descargue o clone el archivo almacenado en github, una dez descargado, coloque los archivos descargados dentro de una carpeta de proyecto de django. si no tiene una carpeta con un proyecto iniciado, puede dirigirse a <a href="https://github.com/mcantillana/unab_install_django/blob/master/README.md">https://github.com/mcantillana/unab_install_django/blob/master/README.md</a> para realizar la instalacion adecuadamente.
 
-una vez dentro del proyecto, abrimos nuestro entorno virtual de vagrant, con el comando "vagrant ssh". una vez listo, nos dirigiremos a la carpeta donde se aloja nuestro proyecto en el entorno virtual e iniciamos el servidor con el comando "python manage.py runserver 0.0.0.0:8080".
+una vez dentro del proyecto, abrimos nuestro entorno virtual de vagrant, con el comando "vagrant ssh". una vez listo, nos dirigiremos a la carpeta donde se aloja nuestro proyecto en el entorno virtual e iniciamos el servidor con el comando "python manage.py runserver 0.0.0.0:8080"(RECORDAR LEER EL ARCHIVO REQUERIMENTS.TXT para instalar todas las aplicaciones necesarias, caso contrario no correra el servidor).
 
 se iniciara nuestro servidor y nos dirigiremos a nuestra pagina web, en el localhost 127.0.0.1:8080.
 
